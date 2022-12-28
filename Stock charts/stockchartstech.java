@@ -1,118 +1,124 @@
-package Stock charts;
 
 public class stockchartstech {
-    
 
-/* 
-// texas
+    // portfolio variables
+ static String[] tickersymbols; 
+static double value;
+static String accountype;
+static int numOfShares;
+static double average;
+static double gainandloss;
+static double marketprice;
+static double txnmarketprice;
+static double aaplmarketprice;
+static double metamarketprice;
+static double mrnamarketprice;
+static double pfemarketprice;
+static int numofPfe;
+static int numofmrna; 
+static int numofmeta; 
+static int numofaapl; 
+static int numoftxn;
+
+
+
+
+
+// Texas instruments
 public static void texasinstruments(){
-
-
-Bid:$163.76
-Ask:$164.60
-Volume:2597000
-90 day volume: 6M
-Todays range:$162.28-$164.80
-52 week range:$144.46-$193.28
-Primary exchange: NASDAQ-NMS
-Previous close:$163.03
-Open:	163.03
-Eps: $2.47
-P/e ratio:	17.21
+ txnmarketprice = 163.42;
+System.out.println("Market Price: " + txnmarketprice +
+"\n90 day volume: 6M"+
+"\nTodays range: $162.28-$164.80"+
+"\n52 week range: $144.46-$193.28"+
+"\nPrimary exchange: NASDAQ-NMS"+
+"\nPrevious close: $163.03"+
+"\nOpen: 163.03");
 
     }
 
 // apple
 
  public static void appleinc(){
-
-
-    Bid:$131.66
-    Ask:$131.70
-    Volume:$131.70
-    90 day volume:  86M
-    Todays range:$129.64-$132.42
-    52 week range: $129.04-$182.94
-    Primary exchange: NASDAQ-NMS
-    Previous close:$131.86
-    Open:	$130.92
-    Eps: $1.29
-    P/e ratio:	21.67
-        
+    aaplmarketprice = 131.42;
+System.out.println("Market Price:" + aaplmarketprice +
+"\nVolume: $131.70" +
+"\n90 day volume:  86M" +
+"\nTodays range: $129.64-$132.42" +
+"\n52 week range: $129.04-$182.94" +
+"\nPrimary exchange: NASDAQ-NMS" +
+"\nPrevious close: $131.86"+
+"\nOpen: $130.92");
+    
     
             }
      // meta    
 public static void metaplatforms(){
+    metamarketprice = 117.43;
+    System.out.println("Market Price: " + metamarketprice +
+    "\nVolume:17,796,625"+
+    "\n90 day volume:  40M"+
+    "\nTodays range: $115.54-$118.18"+
+    "\n52 week range: $88.09-$352.71"+
+    "\nPrimary exchange: NASDAQ-NMS"+
+    "\nPrevious close: $118.04"+
+    "\nOpen: $116.03");
 
-
-         Bid$118.16
-         Ask:$118.22
-         Volume:17,796,625
-         90 day volume:  40M
-         Todays range: $115.54-$118.18
-         52 week range: $88.09-$352.71
-         Primary exchange: NASDAQ-NMS
-         Previous close:$118.04
-         Open:	$116.03
-         Eps: $1.64	
-         P/e ratio:	11.17
-                        
-                     
-       
          }
 
  // moderna
     public static void modrnainc(){
-
-
-      Bid: $198.60
-      Ask$199.00
-      Volume:6,166,010
-      90 day volume:   5M
-      Todays range: $197.56-$208.99
-      52 week range:$115.03-$259.20
-      Primary exchange: NASDAQ-NMS
-      Previous close:$199.08
-      Open:$206.69
-      Eps: $2.53
-       P/e ratio:	7.53
-                                
+     mrnamarketprice = 203.54;
+System.out.println("Market Price:" + mrnamarketprice + 
+"\nVolume: 6,166,010"+
+"\n90 day volume: 5M"+
+"\nTodays range: $197.56-$208.99"+
+"\n52 week range:$115.03-$259.20"+
+"\nPrimary exchange: NASDAQ-NMS"+
+"\nPrevious close: $199.08"+
+"\nOpen: $206.69");
+        
         
    
      }
-// pfzier
+// Pfizer
     public static void pfzierinc(){
-
-
-    Bid: $51.15
-    Ask:$52.28
-    Volume:10,666,541
-     90 day volume:  20M
-    Todays range: $51.24- $51.95
-     52 week range: $41.45-$60.08
-     Primary exchange: NYSE
-     Previous close:$51.83
-     Open:$51.56
-      Eps: $1.51	
-       P/e ratio: 9.79
-                                        
+     pfemarketprice = 51.78;
+     
+System.out.println("Market Price:" + pfemarketprice +
+"\nVolume: 10,666,541"+
+"\n90 day volume:  20M"+
+"\nTodays range: $51.24- $51.95"+
+ "\n52 week range: $41.45-$60.08"+
+ "\nPrimary exchange: NYSE"+
+ "\nPrevious close: $51.83"+
+ "\nOpen: $51.56");
+  
+                                
                                        
        
           }
 
-
-//portfolio
+          //portfolio
     public static void portfolio(){
-      Your investemts:
-      Total value
-      account type
-       Shares owned
-        Average cost
-         Today’s gain/loss
-                                                
-                                                
+// investment value
+ value = txnmarketprice + aaplmarketprice + metamarketprice + mrnamarketprice + pfemarketprice;
+
+        tickersymbols = new String[] {"TXN","AAPL","META","MRNA","PFE"};
+System.out.println("Your investments: " + tickersymbols + 
+"\nTotal value: " + value +
+"\nAccount type: " + accountype +
+"\nShares owned: "+ numOfShares +
+"\nTodays gain/loss: " + gainandloss);
+                        
+         /*                                        
         📈 🟢
          📉🔴
+         */
        }
-*/
+
+//math part on hold
+//find way to make portfolio/stock change based on actions
+
+
 }
