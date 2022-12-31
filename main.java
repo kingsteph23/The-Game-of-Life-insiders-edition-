@@ -2,37 +2,46 @@ import java.util.*;
 
 public class main{
 
-public static void main(String[] args){
+    public static void  roles(){
+        congress techcommittee = new congress();
 
     Scanner scan = new Scanner(System.in);
-//title
-System.out.println("-------------------------------------"+
-"\n The Game of life(insiders edition 🇺🇸 🏛️)    "+ 
-"\n---------------------------------------                         ");                                       
+    //title
+    System.out.println("-------------------------------------"+
+    "\n The Game of life(insiders edition 🇺🇸 🏛️)    "+ 
+    "\n---------------------------------------                         ");                                       
+    
+    scan.nextLine();
+    //choosing a role
+    System.out.println("Please select a role:" +
+    "\n(A) Representative"+
+    "\n(B) Average Joe");
+    
+    String role = scan.nextLine();
+    // starts play representative role
+    if(role.equals("A")){
+       congress.techcommittee();
+    
+        // starts playing average Joe role.
+    }else if(role.equals("B")){
+    
+    }
+    
+    
+    // static void end
+    }
+    
+    
+    
 
-scan.nextLine();
-//choosing a role
-System.out.println("Please select a role:" +
-"\n(A) Representative"+
-"\n(B) Average Joe");
+public static void main(String[] args){
 
-String role = scan.nextLine();
-// starts play representative role
-if(role.equals("A")){
-
-
-    // starts playing average Joe role.
-}else if(role.equals("B")){
-
-}
-
-
-// static void end
-}
-
+   
+roles();
 
 
 
 
 // fin de la classe
+}
 }
