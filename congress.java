@@ -2,14 +2,22 @@ import java.util.*;
 
 
 public class congress {
-    //calling stockcharts tech class
+    //calling tech company methods
     public static  void techcompanies(){
-        stockchartstech texasinstruments = new stockchartstech();
+        txn texasinstruments = new txn();
+        txn texasinstruments2 = new txn();
+        appl appleinc = new appl();
+        appl appleinc2 = new appl();
+        meta metaplatforms = new meta();
+        meta metaplatforms2 = new meta();
+        mrna modernainc = new mrna();
+        mrna modernainc2 = new mrna();
+        
 
 }
 
 public static void techcommittee(){
-
+   int cashbalace = 10000;
     Scanner scan = new Scanner(System.in);
 //intro as a Representative
 
@@ -32,23 +40,51 @@ System.out.println(" As a member of the research and technology subcommittee, yo
 System.out.println();
 // txn stock, buy or sell more shares of txn stock. Show 
 
-stockchartstech.texasinstruments();
+txn.texasinstruments();
+
+//wsj news
+System.out.println("Wall Street Journal-  United States House of Representives passes semiconductor bill "+
+                    "\nWhich will provide aid and subsidies for the Semiconductor companies in order to increase semiconductor production in the US."+
+                    "\nThis bill will also continue to assist companies such as AMD, Texas Instruments, Intel, Sun Microsystems, and others will this production as well.");
 
 
+                  scan.nextLine();
+//second chart
 
+txn.texasinstruments2();
 
-
-
+//SPACE
+System.out.println();
 
 
 //second research and tech subcommittee issue
 
-/* 
+
 // AAPL stock. Incentives from states with expanding silicon chip development/5g. 
  //More jobs in states. not so much china. Tech in the USA
 System.out.println(" In order to reshore many technology manufacturing jobs back to the USA, as well as increase silicon engineering and 5g technology innovation in the US."+
                     "The state governments of Massachusetts, California, Texas, and North Carolina. As well as the federal government has decided to create a program which gives subsidies to"+
                     "technology companies that can assist in accomplishing these national goals.");
+
+scan.nextLine();
+appl.appleinc();
+
+
+
+
+
+//tim cook stepping down. Replaced by elon musk
+System.out.println(" While chatting on the phone with your friend, Al Gore(a member on Apple's board of directors),"+
+                    "\nHe informs you that Tim Cook, Apple's current CEO, is planning on stepping down within a few days."+
+                    "\nAnd is planning to give his position away to Elon Musk, who recently stepped down as twitter's ceo, after its bankruptcy."+
+                    "\nEventually, this sudden news will be made public, but he wanted to give you the heads up, before it does ");
+
+
+//sell a bunch of apple stock before news becomes public
+
+appl.appleinc2();
+scan.nextLine();
+
 
 //3rd research and committee issue
 // meta data breach, more news on privacy issues. Sell meta stock
@@ -57,80 +93,56 @@ System.out.println("On your 3rd issue as a member of the  House science Space an
 "\nThis data breach is estimated to have affected between 250-500 million users. As well as leading to millions of accounts personal info(ranging from email adresses to financial info), being leaked."+
  "\nAs expected, this event will negatively affect the company, and might potentially  lead to a potential commitée hearing.");
 
+ // sell meta stock
+meta.metaplatforms();
  
+//tim cook becomes new ceo and immediately starts new changes to company
 
+System.out.println("During these closed door hearings, you also come to learn that Mark Zuckerburg is stepping down as CEO. And will get replaced by Tim Cook..."+
+"\nWho is well known for his strong views in regards to ethics in tech ");
 
-}
+meta.metaplatforms2();
 
 
 
 //4th research and committee issue
-// moderna health crisis, buy more biohealth shares
-
-System.out.println("");
-insider trading for your average joe
-
-Give option of certain position
-
-maybe part of board of directors of some company(or at least a list of them, weird trading patterns,)
-
-Or friend who pays wants some insider info
-
-trading based on insider information(which is eventually triggers an sec insider trading investigation(stock patterns before good/bad news)
-If you never made a big trade in your life and suddenly you bet everything down to your socks on some stock using all the leverage you can and make a killing, you will raise a red flag (even if you do not use too much leverage you might still attract attention).
-If you only trade stocks that your best buddy has private information about and make good returns, you might also raise a red flag.
-If you have a pattern of trading in the right direction before big moves, you will raise a red flag.
-If you never made a big trade in your life and suddenly you bet everything down to your socks on some stock using all the leverage you can and make a killing, you will raise a red flag (even if you do not use too much leverage you might still attract attention).
-If you only trade stocks that your best buddy has private information about and make good returns, you might also raise a red flag.
-If you have a pattern of trading in the right direction before big moves, you will raise a red flag.
-
-ay you work as an executive at a company that plans to make an acquisition. If it’s not public, that would count as inside information. It becomes a crime if you either tell a friend about it – and that person then buys or sells a financial asset using that information – or if you make a trade yourself.
-https://www.seclaw.com/insider-trading/
+// moderna health crisis, s more biohealth shares
 
 
-Fees
+System.out.println("As a result of the ongoing surge of flu nationwide, there is ongoing fear that this would eventually negatively impact "+
+                   "\nthe general public, and trigger an economic downturn(especially market downturn) that is expected to last for some time.");
 
-The maximum prison sentence for an insider trading violation is now 20 years. The maximum criminal fine for individuals is now $5,000,000, and the maximum fine for non-natural persons (such as an entity whose securities are publicly traded) is now $25,000,000.
-Civil Sanctions. Persons who violate insider trading laws may become subject to an injunction and may be forced to disgorge any profits gained or losses avoided. The civil penalty for a violator may be an amount up to three times the profit gained or loss avoided as a result of the insider trading violation.
+scan.nextLine();
+//new sell mrna shares
 
+//buy mrna shares
+System.out.println("In order to  combat said rise in flu cases, the president is expecteted with a few days to decleare a public health emergency."+
+                   "\n Which will direct the Health and Human Services, the CDC, and various biotechnolgy companies to combat this rise via emergency funding for vacccine production. ");
 
-BUSTED
-
-
-
-
-public static void financecommittee(){
-
-
-
-    // end of finance committee subclass
-     JP Morgan
-      Goldman Sachs
-		Mastercard
-		
+//end of method
 }
 
 
+                    
+
+/* 
+                        
+                                              
+        📈 🟢
+         📉🔴
+         
+       }
+//math part on hold
+//find way to make portfolio/stock change based on actions
+//num of shares in stock portfolio.  num of shares * market price
 
 
+    // end of class
+
+    */
 
 
-
-
-public static void storyline1() {
-}
-
-
-
-
-
-
-
-
-
-
-*/
 }
 //end of class
 
-}
+
