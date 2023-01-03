@@ -17,16 +17,15 @@ public class congress {
 }
 
 public static void techcommittee(){
-   int cashbalace = 10000;
+   int cashbalance = 10000;
     Scanner scan = new Scanner(System.in);
 //intro as a Representative
 
 
 System.out.println("Congratulations Representative on your recent election!"+
                    "\nBased on your previous experience with working in the tech sector, biohealth, and financial sector....."+
-                   "\nWe've decided to place you on the  House science Space and technology commitées and financial services committees."+
-                   "\nIn particular, the: Research and Technology,"+
-                    "\nInvestigations and oversight, and the Investor Protection, Entrepreneurship and Capital Markets subcommittees.");
+                   "\nWe've decided to place you on the  House science Space and technology commitee."+
+                   "\nIn particular, the: Research and Technology and Investigations and oversight ");
 
 scan.nextLine();
 
@@ -69,19 +68,7 @@ System.out.println(" In order to reshore many technology manufacturing jobs back
 scan.nextLine();
 appl.appleinc();
 
-
-
-
-
-//tim cook stepping down. Replaced by elon musk
-System.out.println(" While chatting on the phone with your friend, Al Gore(a member on Apple's board of directors),"+
-                    "\nHe informs you that Tim Cook, Apple's current CEO, is planning on stepping down within a few days."+
-                    "\nAnd is planning to give his position away to Elon Musk, who recently stepped down as twitter's ceo, after its bankruptcy."+
-                    "\nEventually, this sudden news will be made public, but he wanted to give you the heads up, before it does ");
-
-
-//sell a bunch of apple stock before news becomes public
-
+//after news is public
 appl.appleinc2();
 scan.nextLine();
 
@@ -96,11 +83,8 @@ System.out.println("On your 3rd issue as a member of the  House science Space an
  // sell meta stock
 meta.metaplatforms();
  
-//tim cook becomes new ceo and immediately starts new changes to company
 
-System.out.println("During these closed door hearings, you also come to learn that Mark Zuckerburg is stepping down as CEO. And will get replaced by Tim Cook..."+
-"\nWho is well known for his strong views in regards to ethics in tech ");
-
+//after sell
 meta.metaplatforms2();
 
 
@@ -113,12 +97,13 @@ System.out.println("As a result of the ongoing surge of flu nationwide, there is
                    "\nthe general public, and trigger an economic downturn(especially market downturn) that is expected to last for some time.");
 
 scan.nextLine();
+mrna.modrnainc();
 //new sell mrna shares
 
 //buy mrna shares
-System.out.println("In order to  combat said rise in flu cases, the president is expecteted with a few days to decleare a public health emergency."+
-                   "\n Which will direct the Health and Human Services, the CDC, and various biotechnolgy companies to combat this rise via emergency funding for vacccine production. ");
-
+System.out.println("In order to  combat said rise in flu cases, the president is expected with a few days to declare a public health emergency."+
+                   "\n Which will direct the Health and Human Services, the CDC, and various biotechnology companies to combat this rise via emergency funding for vaccine production. ");
+ mrna.modrnainc2();
 //end of method
 }
 
@@ -127,20 +112,15 @@ System.out.println("In order to  combat said rise in flu cases, the president is
 
 /* 
                         
+FIx selling
+making market price 
                                               
         📈 🟢
          📉🔴
          
-       }
-//math part on hold
-//find way to make portfolio/stock change based on actions
-//num of shares in stock portfolio.  num of shares * market price
 
-
-    // end of class
-
-    */
-
+    
+*/
 
 }
 //end of class

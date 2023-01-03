@@ -22,8 +22,9 @@ static Scanner scan = new Scanner(System.in);
 
 public static void texasinstruments() {
     txnmarketprice = 163.42;
+    double currentsharesowned = 5;
+
     
-       
     System.out.println("Market Price: " + txnmarketprice +
     "\n90 day volume: 6M"+
     "\nTodays range: $162.28-$164.80"+
@@ -42,9 +43,10 @@ public static void texasinstruments() {
         if(choice.equals("A") && !(choice.equals("0"))){
      
             System.out.println("Type in the number of shares you would like to buy:");
-            int txnsharessbuy = scan.nextInt();
-    
-            totaltxnvalue = txnmarketprice * txnsharessbuy;
+            double txnsharessbuy = scan.nextDouble();
+            //current shares(when new shares are bought)
+            double newshares = currentsharesowned + txnsharessbuy;
+            totaltxnvalue = txnmarketprice * newshares;
     
              System.out.println(" $ " + totaltxnvalue);
            
@@ -52,9 +54,12 @@ public static void texasinstruments() {
     
     } else if(choice.equals("B") && !(choice.equals("0"))){
         System.out.println("Type in the number of shares you would like to sell:");
-        int txnsharessell = scan.nextInt();
+        double txnsharessell = scan.nextDouble();
     
-        totaltxnvalue = txnmarketprice / txnsharessell;
+    
+        double newshares2 =   txnsharessell + currentsharesowned;
+        totaltxnvalue = txnmarketprice - newshares2;
+
         System.out.println("$" +totaltxnvalue);
     }
 
@@ -63,36 +68,18 @@ public static void texasinstruments() {
 public static void texasinstruments2() {
 
     double newtxnmarketprice = txnmarketprice + 10.50;
-    System.out.println("Market Price: " + newtxnmarketprice  +
+    
+       
+    System.out.println("Market Price: " +  newtxnmarketprice +
     "\n90 day volume: 8.5M"+
-    "\nTodays range: $171.28-$175.30"+
+    "\nTodays range:  $171.28-$175.30"+
     "\n52 week range: $144.46-$175.38"+
     "\nPrimary exchange: NASDAQ-NMS"+
     "\nPrevious close: $170.97"+
     "\nOpen: 171.02");
-        
-    System.out.println("Would you like to buy or sell shares of TXN(Texas Instruments)?"+
-    "\n(A) buy"+
-    "\n(B) sell");
-    String choice2 = scan.nextLine();
-    // if choice is buy
     
-    if(choice2.equals("A") && !(choice2.equals("0"))){
     
-        System.out.println("Type in the number of shares you would like to buy:");
-        int txnsharessbuy2 = scan.nextInt();
-    
-        totaltxnvalue = txnmarketprice * txnsharessbuy2;
-    
-         System.out.println(" $ " + totaltxnvalue);
-       
-        }else if(choice2.equals("B") && !(choice2.equals("0"))){
-         System.out.println("Type in the number of shares you would like to sell:");
-         int txnsharessell2 = scan.nextInt();
-     
-         totaltxnvalue = txnmarketprice / txnsharessell2;
-         System.out.println("$" + totaltxnvalue);
-        }
+
     //end of class
 }}
 
