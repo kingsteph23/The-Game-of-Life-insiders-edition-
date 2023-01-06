@@ -35,13 +35,13 @@ static Scanner scan = new Scanner(System.in);
            
            
    System.out.println("Would you like to buy or sell shares of MRNA(Moderna inc)?"+
-   "\n(A) buy"+
-   "\n(B) sell");
+   "\n(a) buy"+
+   "\n(b) sell");
 
    String choice = scan.nextLine();
    // if choice is buy
    
-   if(choice.equals("A") && !(choice.equals("0"))){
+   if(choice.equals("a") && !(choice.equals("0"))){
 
        System.out.println("Type in the number of shares you would like to buy:");
        int mrnasharessbuy = scan.nextInt();
@@ -55,7 +55,7 @@ static Scanner scan = new Scanner(System.in);
       
 
 
-} else if(choice.equals("B") && !(choice.equals("0"))){
+} else if(choice.equals("b") && !(choice.equals("0"))){
    System.out.println("Type in the number of shares you would like to sell:");
    double mrnasharessell = scan.nextDouble();
 
@@ -94,15 +94,15 @@ totalmrnavalue = mp2 - mrnasharessell;
 
 // second chart(buy more shares)
 public static void modrnainc2(){
-mrnamarketprice = 190.23;
+mrnamarketprice = 219.33;
 System.out.println("Market Price:" + mrnamarketprice + 
 "\nVolume: 5,223,010"+
 "\n90 day volume: 6.9M"+
-"\nTodays range: $189.93-$191.25"+
+"\nTodays range: $216.54-$220.33"+
 "\n52 week range:$188.03-$259.20"+
 "\nPrimary exchange: NASDAQ-NMS"+
-"\nPrevious close: $192.08"+
-"\nOpen: $191.23");
+"\nPrevious close: $215.53"+
+"\nOpen: $216.54");
         
       
 

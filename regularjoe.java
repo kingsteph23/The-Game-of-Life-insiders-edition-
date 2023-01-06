@@ -1,6 +1,6 @@
 
 import java.util.*;
-
+ 
 public class regularjoe {
     
     public static void appleshares(){
@@ -12,6 +12,10 @@ public class regularjoe {
 }
 //intro
 public static void shareholder(){
+
+
+  System.out.println();
+
 System.out.println("As a  major shareholder of Apple and are current friends with some members of Apple Inc board of directors, "+
                     "\nYou are friends with the people who are responsible for responsible for protecting shareholders"+
                      "\ninterests, establishing policies for management, oversight of the corporation or organization,"+
@@ -24,9 +28,16 @@ System.out.println("As a  major shareholder of Apple and are current friends wit
 //sell
 System.out.println("While in a board meeting, current CEO, Tim Cook, announces that he will step down as CEO of Apple Inc due to personal issues"+
                     "\nWhile this is suprsing news, even more suprising is that Elon Musk(who also just stepped down as ceo of twitter after the company filed for bankruptcy"+
-                    "\nAnd is schudeled to take place in CEO of Apple Inc.");
+                    "\nAnd is schudeled to take place in CEO of Apple Inc."+
+                    "\nCurrent Sentiment of Apple: 📉🔴");
+
+                    System.out.println();
 
                     appleshareholder.scenario1();
+
+                    System.out.println();
+                    System.out.println("NYT-Current Apple Inc CEO, Tim Cook, has announced that he will step down as CEO due to personal issues. "+
+                                         "\nWithin a few days, he is expected to be replaced by former twitter ceo, Elon musk ");
                     System.out.println();
 
 
@@ -34,10 +45,24 @@ System.out.println("While in a board meeting, current CEO, Tim Cook, announces t
 System.out.println("While as CEO of Apple inc, Elon musk decides to switch Apple inc chip manufacteur(Foxconn) to Samsung's chip manufacteur(Qualcomm)."+
 "\n In addition to, Elon Musk also decides to use chips which have a history of being defective, and even explode randomly."+
 "\nEven with the disagreement of the board of directors."+
-"\nEventually, multiple iphone users started to file lawsuits due to new iphones blowing due to defective chips");
+"\nEventually, multiple iphone users started to file lawsuits due to new iphones blowing due to defective chips."+
+"\nSentiment of Apple: 📉🔴");
 //sell
+System.out.println();
 
+//scenario2
 appleshareholder.scenario2();
+
+
+System.out.println();
+
+
+
+System.out.println("Wsj- As a result of Elon musk’s decision to switch apple’s chip manufacturer from foxconn to qualcomm, "+
+                   "\nwhich have a current history of producing defective chips(and even going as far as having them explode)."+
+                   "\nA couple californian residents who currently have iphone has reported of iphones exploding, "+
+                   "\nhave filed a lawsuit against apple due to these dangers."+
+                   "\nSentiment of Apple: 📉🔴");
 System.out.println();
 
 //third plot Mole giving hackers macos and ios info. Increase in spyware
@@ -47,12 +72,19 @@ System.out.println("After a investigation lead by members of Apple leadership,"+
                    "\nAfter this, a secruity update was sent to all icloud users to prevent further exploit of Apple's operating systems. ");
 
                    System.out.println();
-//sell
+                  
 appleshareholder.scenario3();
 
 
+System.out.println("WSJ- Apple inc has released a statement, which warns apple users that due to a recent secruity issue,"+
+"\nit is extremely reccommened that they update to the latest macos,ipados,"+
+  "\nand ios versions in order to prevent potiental exploits of the devices."+
+  "\nSentiment of Apple: 📉🔴");
 
+  System.out.println();
+//sell
 
+System.out.println();
 //4th plot elon steps down. tim cook back
 
 System.out.println("After the mutliple incidents rangining from the chip switch to the hacking incident, eventually, a unanimous vote amongst the board of directions"+
@@ -61,7 +93,13 @@ System.out.println("After the mutliple incidents rangining from the chip switch 
                     "\nWith the knowledge that a return of normalcy will come to Apple Inc.");
 
 
+                    System.out.println();
                     //buy more shares of apple stock
+                    System.out.println("Nyt- After multiple scandals. And incidents under his leadership. Apple ceo, elon musk has announced that he will step down as Apple's Ceo. "+
+                                       "\n In addition, Apple's board of directors has announced that Tim Cook will return as Apple's CEO, and will bring a (Return to Normal), to Apple"+
+                                       "\nSentiment of Apple:");
+
+
 
                     appleshareholder.scenario4();
 

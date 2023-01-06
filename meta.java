@@ -33,13 +33,13 @@ static Scanner scan = new Scanner(System.in);
         "\nOpen: $123.01");
     
         System.out.println("Would you like to buy or sell shares of META(Meta Platforms)?"+
-        "\n(A) buy"+
-        "\n(B) sell");
+        "\n(a) buy"+
+        "\n(b) sell");
 
         String choice = scan.nextLine();
         // if choice is buy
         
-        if(choice.equals("A") && !(choice.equals("0"))){
+        if(choice.equals("a") && !(choice.equals("0"))){
      
             System.out.println("Type in the number of shares you would like to buy:");
             double metasharessbuy = scan.nextDouble();
@@ -51,7 +51,7 @@ static Scanner scan = new Scanner(System.in);
     
 
     
-    } else if(choice.equals("B") && !(choice.equals("0"))){
+    } else if(choice.equals("b") && !(choice.equals("0"))){
         System.out.println("Type in the number of shares you would like to sell:");
         double metasharessell = scan.nextDouble();
         double mp2 = 128.44*5;
@@ -101,7 +101,7 @@ System.out.println("Market Price: " + metamarketprice +
 "\nPrimary exchange: NASDAQ-NMS"+
 "\nPrevious close: $107.32"+
 "\nOpen: $106.41");
-
+//end of methodd
 }
 //end of class
 }

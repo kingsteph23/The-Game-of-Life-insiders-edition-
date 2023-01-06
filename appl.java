@@ -34,13 +34,13 @@ System.out.println("Market Price:" + aaplmarketprice +
 "\nOpen: $130.92");
     
 System.out.println("Would you like to buy or sell shares of APPL(Apple Inc)?"+
-"\n(A) buy"+
-"\n(B) sell");
+"\n(a) buy"+
+"\n(b) sell");
 
 String choice = scan.nextLine();
 // if choice is buy
 double currentsharesowned = 5;
-if(choice.equals("A") && !(choice.equals("0"))){
+if(choice.equals("a") && !(choice.equals("0"))){
 
     System.out.println("Type in the number of shares you would like to buy:");
     int applsharessbuy = scan.nextInt();
@@ -54,7 +54,7 @@ if(choice.equals("A") && !(choice.equals("0"))){
    
 
 
-} else if(choice.equals("B") && !(choice.equals("0"))){
+} else if(choice.equals("b") && !(choice.equals("0"))){
 System.out.println("Type in the number of shares you would like to sell:");
 double applsharessell = scan.nextDouble();
 double mp2 = 131.42*5;
@@ -102,10 +102,6 @@ public static void appleinc2(){
     "\nPrevious close: $142.3"+
     "\nOpen: $144.42");
         
-
-
-//update cash
-//buy and share if statements(copy n paste from txn.java)
 
 }
 }

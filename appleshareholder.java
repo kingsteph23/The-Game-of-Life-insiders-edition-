@@ -32,13 +32,13 @@ static double currentsharesowned = 10;
  "\nOpen: $130.92");
      
  System.out.println("Would you like to buy or sell shares of APPL(Apple Inc)?"+
- "\n(A) buy"+
- "\n(B) sell");
+ "\n(a) buy"+
+ "\n(b) sell");
  
  String choice = scan.nextLine();
  // if choice is buy
  //scenario 1
- if(choice.equals("A") && !(choice.equals("0"))){
+ if(choice.equals("a") && !(choice.equals("0"))){
  
      System.out.println("Type in the number of shares you would like to buy:");
      double applsharessbuy = scan.nextDouble();
@@ -52,7 +52,7 @@ static double currentsharesowned = 10;
     
  
  
- } else if(choice.equals("B") && !(choice.equals("0"))){
+ } else if(choice.equals("b") && !(choice.equals("0"))){
  System.out.println("Type in the number of shares you would like to sell:");
  double applsharessell = scan.nextDouble();
  double mp2 = 152.65 * currentsharesowned;
@@ -98,44 +98,47 @@ System.out.println("$" + totalaaplvalue);
     }
 
 
+
 //scenario 2
-    public static void scenario2(){
- //buy share
- aaplmarketprice = 126.23;
- System.out.println("Market Price:" + aaplmarketprice +
- "\nVolume: $131.70" +
- "\n90 day volume:  86M" +
- "\nTodays range: $129.64-$132.42" +
- "\n52 week range: $129.04-$182.94" +
- "\nPrimary exchange: NASDAQ-NMS" +
- "\nPrevious close: $131.86"+
- "\nOpen: $130.92");
-     
- System.out.println("Would you like to buy or sell shares of APPL(Apple Inc)?"+
- "\n(A) buy"+
- "\n(B) sell");
- 
- String choice = scan.nextLine();
- // if choice is buy
- 
- if(choice.equals("A") && !(choice.equals("0"))){
- 
-     System.out.println("Type in the number of shares you would like to buy:");
-     double applsharessbuy = scan.nextDouble();
- 
-     totalaaplvalue= aaplmarketprice * applsharessbuy;
- 
-     double newshares = currentsharesowned + applsharessbuy;
-     totalaaplvalue = aaplmarketprice * newshares;
-     
-              System.out.println(" $ " + totalaaplvalue);
+public static void scenario2(){
+    //buy share
+    aaplmarketprice = 126.23;
+    System.out.println("Market Price:" + aaplmarketprice +
+    "\nVolume: $131.70" +
+    "\n90 day volume:  86M" +
+    "\nTodays range: $129.64-$132.42" +
+    "\n52 week range: $129.04-$182.94" +
+    "\nPrimary exchange: NASDAQ-NMS" +
+    "\nPrevious close: $131.86"+
+    "\nOpen: $130.92");
+        
+    System.out.println("Would you like to buy or sell shares of APPL(Apple Inc)?"+
+    "\n(A) buy"+
+    "\n(B) sell");
     
+    String choice = scan.nextLine();
+    // if choice is buy
+    
+    if(choice.equals("a") && !(choice.equals("0"))){
  
- 
- } else if(choice.equals("B") && !(choice.equals("0"))){
- System.out.println("Type in the number of shares you would like to sell:");
- double applsharessell = scan.nextDouble();
- double mp2 = 126.23 * currentsharesowned;
+        System.out.println("Type in the number of shares you would like to buy:");
+        double applsharessbuy = scan.nextDouble();
+    
+        totalaaplvalue = aaplmarketprice * applsharessbuy;
+    
+        double newshares = currentsharesowned + applsharessbuy;
+        totalaaplvalue = aaplmarketprice * newshares;
+        
+                 System.out.println(" $ " + totalaaplvalue);
+       
+       
+    
+    
+    } else if(choice.equals("B") && !(choice.equals("0"))){
+    System.out.println("Type in the number of shares you would like to sell:");
+    double applsharessell = scan.nextDouble();
+    double mp2 = 126.23 * currentsharesowned;
+   
 
 if(applsharessell == 1){
     applsharessell = 126.23;
@@ -145,7 +148,7 @@ if(applsharessell == 1){
     applsharessell = 252.46;
 
 }else if(applsharessell == 3){
-    applsharessell = 457.95;;
+    applsharessell = 457.95;
 
 }else if(applsharessell == 4){
     applsharessell =  504.92;
@@ -160,24 +163,24 @@ applsharessell = 757.38;
 applsharessell = 883.61;
 
 }else if(applsharessell == 8){
-applsharessell = 1009.84;
+applsharessell =1009.84;
 
 }else if(applsharessell == 9){
-applsharessell = 1136.07;
+applsharessell =1136.07;
 
 }else if(applsharessell == 10){
 applsharessell = 1262.30;
-}
 
+}
 
 totalaaplvalue = mp2 - applsharessell;
 
 System.out.println("$" + totalaaplvalue);
-
 }
-
-    }
-
+       }
+   
+   
+    
 
 
 //storyline 3
@@ -194,13 +197,13 @@ System.out.println("$" + totalaaplvalue);
  "\nOpen: $130.92");
      
  System.out.println("Would you like to buy or sell shares of APPL(Apple Inc)?"+
- "\n(A) buy"+
- "\n(B) sell");
+ "\n(a) buy"+
+ "\n(b) sell");
  
  String choice = scan.nextLine();
  // if choice is buy
  
- if(choice.equals("A") && !(choice.equals("0"))){
+ if(choice.equals("a") && !(choice.equals("0"))){
  
      System.out.println("Type in the number of shares you would like to buy:");
      double applsharessbuy = scan.nextDouble();
@@ -214,7 +217,7 @@ System.out.println("$" + totalaaplvalue);
     
  
  
- } else if(choice.equals("B") && !(choice.equals("0"))){
+ } else if(choice.equals("b") && !(choice.equals("0"))){
  System.out.println("Type in the number of shares you would like to sell:");
  double applsharessell = scan.nextDouble();
  double mp2 = 111.34 * currentsharesowned;
@@ -275,32 +278,34 @@ System.out.println("$" + totalaaplvalue);
  "\nOpen: $130.92");
      
  System.out.println("Would you like to buy or sell shares of APPL(Apple Inc)?"+
- "\n(A) buy"+
- "\n(B) sell");
+ "\n(a) buy"+
+ "\n(b) sell");
  
  String choice = scan.nextLine();
  // if choice is buy
- if(choice.equals("A") && !(choice.equals("0"))){
+ if(choice.equals("a") && !(choice.equals("0"))){
  
-     System.out.println("Type in the number of shares you would like to buy:");
-     double applsharessbuy = scan.nextDouble();
- 
-     totalaaplvalue= aaplmarketprice * applsharessbuy;
- 
-     double newshares = currentsharesowned + applsharessbuy;
-     totalaaplvalue = aaplmarketprice * newshares;
-     
-              System.out.println(" $ " + totalaaplvalue);
+    System.out.println("Type in the number of shares you would like to buy:");
+    double applsharessbuy = scan.nextDouble();
+
+    totalaaplvalue = aaplmarketprice * applsharessbuy;
+
+    double newshares = currentsharesowned + applsharessbuy;
+    totalaaplvalue = aaplmarketprice * newshares;
+    
+             System.out.println(" $ " + totalaaplvalue);
+   
     
  
  
- } else if(choice.equals("B") && !(choice.equals("0"))){
- System.out.println("Type in the number of shares you would like to sell:");
- double applsharessell = scan.nextDouble();
- double mp2 = 131.34 * currentsharesowned;
+ } else if(choice.equals("b") && !(choice.equals("0"))){
+    System.out.println("Type in the number of shares you would like to sell:");
+    double applsharessell = scan.nextDouble();
+    double mp2 = 111.34 * currentsharesowned;
+
 
 if(applsharessell == 1){
-    applsharessell = 131.34;
+    applsharessell =131.34;
 
 }else if(applsharessell == 2){
 
@@ -313,7 +318,7 @@ if(applsharessell == 1){
     applsharessell =  525.36;
 
 }else if(applsharessell == 5){
-applsharessell = 656.70;
+applsharessell =   656.70;
 
 }else if(applsharessell == 6){
 applsharessell = 788.04;
@@ -337,7 +342,7 @@ totalaaplvalue = mp2 - applsharessell;
 System.out.println("$" + totalaaplvalue);
  }
 
-    }
+ }
 
 
 
