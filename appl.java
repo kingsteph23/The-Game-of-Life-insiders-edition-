@@ -45,7 +45,7 @@ if(choice.equals("A") && !(choice.equals("0"))){
     System.out.println("Type in the number of shares you would like to buy:");
     int applsharessbuy = scan.nextInt();
 
-    totalaaplvalue= aaplmarketprice * applsharessbuy;
+    totalaaplvalue = aaplmarketprice * applsharessbuy;
 
     double newshares = currentsharesowned + applsharessbuy;
     totalaaplvalue = aaplmarketprice * newshares;
@@ -56,9 +56,32 @@ if(choice.equals("A") && !(choice.equals("0"))){
 
 } else if(choice.equals("B") && !(choice.equals("0"))){
 System.out.println("Type in the number of shares you would like to sell:");
-int applsharessell = scan.nextInt();
+double applsharessell = scan.nextDouble();
+double mp2 = 131.42*5;
 
-totalaaplvalue = aaplmarketprice / applsharessell;
+if(applsharessell == 1){
+    applsharessell = 131.42;
+
+}else if(applsharessell == 2){
+
+    applsharessell = 262.84;
+
+}else if(applsharessell == 3){
+    applsharessell = 394.26;;
+
+}else if(applsharessell == 4){
+    applsharessell =  525.68;
+
+}else if(applsharessell == 5)
+applsharessell = 657.10;
+
+
+
+totalaaplvalue = mp2 - applsharessell;
+
+
+    
+
 System.out.println("$" +totalaaplvalue);
 }
 

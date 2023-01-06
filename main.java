@@ -4,7 +4,7 @@ public class main{
 
     public static void  roles(){
         congress techcommittee = new congress();
-
+        regularjoe shareholder = new regularjoe();
     Scanner scan = new Scanner(System.in);
     //title
     System.out.println("-------------------------------------"+
@@ -24,7 +24,7 @@ public class main{
     
         // starts playing average Joe role.
     }else if(role.equals("B")){
-    
+        regularjoe.shareholder();
     }
     
     

@@ -4,8 +4,6 @@ import java.util.*;
 public class congress {
     //calling tech company methods
     public static  void techcompanies(){
-        txn texasinstruments = new txn();
-        txn texasinstruments2 = new txn();
         appl appleinc = new appl();
         appl appleinc2 = new appl();
         meta metaplatforms = new meta();
@@ -17,7 +15,7 @@ public class congress {
 }
 
 public static void techcommittee(){
-   int cashbalance = 10000;
+   
     Scanner scan = new Scanner(System.in);
 //intro as a Representative
 
@@ -27,34 +25,8 @@ System.out.println("Congratulations Representative on your recent election!"+
                    "\nWe've decided to place you on the  House science Space and technology commitee."+
                    "\nIn particular, the: Research and Technology and Investigations and oversight ");
 
-scan.nextLine();
-
-//first research and tech subcommittee issue
-System.out.println(" As a member of the research and technology subcommittee, you deal with all maters related to science policy."+
-                  "\n While on committee, you eventually to deal with your first commitée hearing."+
-                  "\nWhich consist legislation to aid and subsidies for the Semiconductor companies in order to "+
-                   "\nincrease American dominance in semiconductor industry ");
-    
-    
-System.out.println();
-// txn stock, buy or sell more shares of txn stock. Show 
-
-txn.texasinstruments();
-
-//wsj news
-System.out.println("Wall Street Journal-  United States House of Representives passes semiconductor bill "+
-                    "\nWhich will provide aid and subsidies for the Semiconductor companies in order to increase semiconductor production in the US."+
-                    "\nThis bill will also continue to assist companies such as AMD, Texas Instruments, Intel, Sun Microsystems, and others will this production as well.");
-
-
-                  scan.nextLine();
-//second chart
-
-txn.texasinstruments2();
-
-//SPACE
-System.out.println();
-
+                   scan.nextLine();
+                   
 
 //second research and tech subcommittee issue
 
@@ -92,21 +64,32 @@ meta.metaplatforms2();
 //4th research and committee issue
 // moderna health crisis, s more biohealth shares
 
-
-System.out.println("As a result of the ongoing surge of flu nationwide, there is ongoing fear that this would eventually negatively impact "+
-                   "\nthe general public, and trigger an economic downturn(especially market downturn) that is expected to last for some time.");
-
 scan.nextLine();
-mrna.modrnainc();
-//new sell mrna shares
 
-//buy mrna shares
 System.out.println("In order to  combat said rise in flu cases, the president is expected with a few days to declare a public health emergency."+
                    "\n Which will direct the Health and Human Services, the CDC, and various biotechnology companies to combat this rise via emergency funding for vaccine production. ");
+
+mrna.modrnainc();
+
+//buy mrna sh
  mrna.modrnainc2();
 //end of method
 }
 
+
+public static void finalreview(){
+
+
+    System.out.println();
+
+    System.out.println("After making multiple well timed trades which consisted of you having a pattern of trading in the right direction before big moves "+
+                        "\nand having a pattern of trading in the right direction before big moves."+
+                        "\nAnd due to said market trades, has resulted in a House ethics commitee investigation into you due to suspicion of insider trading."+
+                        "\nAfter said investigation: review of the many stock trades and bank transactions, this has led  "+
+                        "\nEventually the SEC files a complaint with a U.S. District Court, which eventually leads to a warrant for your arrest"+
+                        "\nWhich than leads to you serving 10 in prison, and a $20 million fine for insider trading ");
+
+}
 
                     
 

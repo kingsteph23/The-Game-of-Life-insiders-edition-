@@ -42,22 +42,51 @@ static Scanner scan = new Scanner(System.in);
         if(choice.equals("A") && !(choice.equals("0"))){
      
             System.out.println("Type in the number of shares you would like to buy:");
-            int metasharessbuy = scan.nextInt();
+            double metasharessbuy = scan.nextDouble();
             double newshares = currentsharesowned + metasharessbuy;
             totalmetavalue = metamarketprice * newshares;
     
-             System.out.println(" $ " + totalmetavalue);
+           
             
     
 
     
     } else if(choice.equals("B") && !(choice.equals("0"))){
         System.out.println("Type in the number of shares you would like to sell:");
-        int metasharessell = scan.nextInt();
-    
-        totalmetavalue = metamarketprice / metasharessell;
-        System.out.println("$" + totalmetavalue);
+        double metasharessell = scan.nextDouble();
+        double mp2 = 128.44*5;
+
+if(metasharessell == 1){
+    metasharessell = 128.44;
+
+}else if(metasharessell == 2){
+
+    metasharessell = 256.88;
+
+}else if(metasharessell == 3){
+    metasharessell = 385.32;;
+
+}else if(metasharessell == 4){
+    metasharessell =  513.76;
+
+}else if(metasharessell == 5)
+metasharessell = 642.20;
+
+
+
+totalmetavalue = mp2 - metasharessell;
+
+
+System.out.println(" $ " + totalmetavalue);
     }
+
+
+
+
+
+
+
+    //end of method
 }
 
 public static void metaplatforms2(){

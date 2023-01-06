@@ -57,11 +57,38 @@ static Scanner scan = new Scanner(System.in);
 
 } else if(choice.equals("B") && !(choice.equals("0"))){
    System.out.println("Type in the number of shares you would like to sell:");
-   int mrnasharessell = scan.nextInt();
+   double mrnasharessell = scan.nextDouble();
 
-   totalmrnavalue = mrnamarketprice / mrnasharessell;
+
+   double mp2 = 210.54*5;
+
+if(mrnasharessell == 1){
+    mrnasharessell = 210.54;
+
+}else if(mrnasharessell == 2){
+
+    mrnasharessell = 421.08;
+
+}else if(mrnasharessell == 3){
+    mrnasharessell = 631.62;;
+
+}else if(mrnasharessell == 4){
+    mrnasharessell =  842.16;
+
+}else if(mrnasharessell == 5)
+mrnasharessell = 1052.7;
+
+
+
+totalmrnavalue = mp2 - mrnasharessell;
+
    System.out.println("$" +totalmrnavalue);
 }
+
+
+
+
+
 }
 
 
