@@ -4,6 +4,7 @@ import java.util.*;
 public class regularjoe {
     
     public static void appleshares(){
+
   appleshareholder scenario1 = new appleshareholder();
   appleshareholder scenario2 = new appleshareholder();
   appleshareholder scenario3 = new appleshareholder();
@@ -72,10 +73,10 @@ System.out.println("After a investigation lead by members of Apple leadership,"+
                    "\nAfter this, a secruity update was sent to all icloud users to prevent further exploit of Apple's operating systems. ");
 
                    System.out.println();
-                  
+       //end of scenario 3           
 appleshareholder.scenario3();
 
-
+//
 System.out.println("WSJ- Apple inc has released a statement, which warns apple users that due to a recent secruity issue,"+
 "\nit is extremely reccommened that they update to the latest macos,ipados,"+
   "\nand ios versions in order to prevent potiental exploits of the devices."+
@@ -100,7 +101,7 @@ System.out.println("After the mutliple incidents rangining from the chip switch 
                                        "\nSentiment of Apple:");
 
 
-
+//end of shareholder scenario 4
                     appleshareholder.scenario4();
 
 
@@ -109,7 +110,7 @@ System.out.println("After the mutliple incidents rangining from the chip switch 
 //investigation/settle
 
 System.out.println();
-
+// end of appleshareholder storyline
 System.out.println("After making multiple well timed trades which consisted of you having a pattern of trading in the right direction before big moves "+
                     "\nand having a pattern of trading in the right direction before big moves."+
                     "\nAnd due to said market trades, has resulted in a SEC investigation into you, as well as the company to suspiscon of insider trading."+
@@ -117,9 +118,82 @@ System.out.println("After making multiple well timed trades which consisted of y
                     "\nEventually the SEC files a complaint with a U.S. District Court, which eventually leads to a warrant for your arrest"+
                     "\nWhich than leads to you serving 10 in prison, and a $20 million fine for insider trading ");
 
-//end of shareholder method
-}  
 
-// end of class
-}
+                    System.out.println();
+    
+
+                    //links
+                    System.out.println("If you are still intrested in the topic of how insider trading is used in the federal government."+
+                                       "\nCheck out the following links:"+
+                 "\n"+
+                        
+                
+                    "\nhttps://doi.org/https://www.wsj.com/articles/covid-washington-officials-stocks-trading-mmarkets-stimulus-11666192404?page=1"+
+                      "\nWSJ- Discusses insider trading within federal health agencies such as HHS and CDC,and us treasury during the early days of covid 19"+
+                                       "\n"+
+                          
+                    "https://doi.org/https://www.wsj.com/articles/the-regulators-of-facebook-google-and-amazon-also-invest-in-the-companies-stocks-11665670207"+
+                      "\nWSJ-Discusses insider trading in the Federal Trade Comission where many senior officals made well timed during high profile/antitrust cases in regards to tech companies"+
+                                       "\n"+
+                          
+                    "\nhttps://www.youtube.com/watch?v=nriHKFF1hUs"+
+                    "\nYT video- Discusses the many loopholes founded with the STOCK ACT of 2012, which attempted to combat insder trading in congress."+
+                                       "\n"+
+                        
+                    "\nhttps://doi.org/https://www.wsj.com/articles/burr-senate-colleagues-sold-stock-after-coronavirus-briefings-11584715866"+
+                       "\nWSJ-Deep dive on how lawmakers made profit prior to the start of the covid-19 pandemic.In particular,with Senator Richard Burr."+
+                                      "\n"+
+                          
+                           
+                     "\nhttps://www.youtube.com/watch?v=TdYqE60-8E8"+
+                       "\n YT video- detailed video which describes the process of insider trading in congress. Examples of insider trading in congress during covid19 pandemic and 2008 finacial crisis"+
+                                        "\n"+
+                        
+                           
+                     "\nhttps://www.npr.org/2012/02/10/146709359/rep-bachus-investigated-for-insider-trading"+
+                     "\nDiscusses how the Chairiman of the House Finacial Services Commitee,Rep  Spencer Bachus was investigated due to betting against US market,"+
+                        "\nwhile also understanding what was going on in the financial sector of the United States via closed-door meetings/holdings"+
+                         "\n"+
+                        
+                      "\nhttps://www.youtube.com/watch?v=l3DZh1109W8"+
+                     "\nYT video- Discusses how members of congress were able to make profit during the 2008 finacial crises via  the information they gained duringclosed door meetings."+
+                                        "\n"+
+                        
+                      "\nhttps://www.congress.gov/112/plaws/publ105/PLAW-112publ105.html"+
+                     "\nCongress bill-The Stock ACT of 2012,and its contents/methods used to prevent insider trading in congress."+
+                                        "\n"+
+                        
+                      "\nhttps://doi.org/https://www.nytimes.com/2022/02/09/us/politics/pelosi-stock-trading-congress.html"+
+                      "\nNYT- articles which discusses the bipartisan efforts to not only limit insider trading in congress, but also limit it in the executive/judical branches."+
+                         "\n"+
+                        
+                      "\nhttps://doi.org/https://www.wsj.com/articles/government-officials-invest-in-companies-their-agencies-oversee-11665489653"+
+                       "\nDiscusses insider trading within the executive branch, and its departments/agencies. In particular, the Department of Defense, Commerce    department,FDA,and EPA"+
+                        
+                      "\nhttps://doi.org/https://www.foxnews.com/opinion/pelosi-portfolio-example-congress-policy-investments"+
+                      "\nFOX- Opinoated fox piece which discusses the corruption of insider trading , and discusses how Nancy pelosi profited from insider trading."+
+                         "\n"+
+                
+                                       
+                      "\nhttps://doi.org/https://www.nytimes.com/interactive/2022/09/13/us/politics/congress-stock-trading-investigation.html"+
+                       "\nNYT- Detailed list of members of congress, their committees, and their stock picckings. Discusses the magnitude of insider trading in congress."+
+                         "\n"+
+                        
+                      "\nhttps://doi.org/http://blogs.luc.edu/compliance/?p=4459"+
+                      "\nUniversity of Chicago study which explained the process of insider trading, and legislation proposed/passed to prevent it."+
+                      "\nhttps://open.spotify.com/episode/1OSxWv370RvSeN0uakeRdl?si=EVE33TpFRhS8CMNQDySeXA"+
+                         "\n"+
+                        
+                        "\nWSJ- Discusses loopholes used by politicans(in all three branches), to inside trade. Also discusses conflicts/insights in regard to the"+
+                        "\nenforcement/regulation of insider trading in congress.");
+                
+                    //links
+                }
+                
+                
+                }
+                //end of class
+                
+                
+                
 

@@ -19,8 +19,8 @@ static double totalmrnavalue;
 static int numofmrna;
 static Scanner scan = new Scanner(System.in);
 
+//mrnastock
 
-//sell
     public static void modrnainc(){
         double currentsharesowned = 5;
         mrnamarketprice = 210.54;
@@ -53,7 +53,7 @@ static Scanner scan = new Scanner(System.in);
 
         System.out.println(" $ " + totalmrnavalue);
       
-
+//selling stock
 
 } else if(choice.equals("b") && !(choice.equals("0"))){
    System.out.println("Type in the number of shares you would like to sell:");

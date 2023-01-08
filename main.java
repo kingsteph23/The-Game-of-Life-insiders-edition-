@@ -3,6 +3,8 @@ import java.util.*;
 public class main{
 
     public static void  roles(){
+
+        //calling storylines
         congress techcommittee = new congress();
         regularjoe shareholder = new regularjoe();
     Scanner scan = new Scanner(System.in);
@@ -13,7 +15,7 @@ public class main{
     "\n--------------------------------------- ");                                       
 
     scan.nextLine();
-
+//instructions
     System.out.println("Instructions:"+
     "\nWhen asked to [Enter], press [ENTER] on your keyboard"+
     "\nWhen asked to select a role/ buy or sell a stock , either press (a) or (b) on your keyboard"+
@@ -46,7 +48,7 @@ public class main{
 
 public static void main(String[] args){
 
-   
+   //allows game to start playing(depends on user choice on storyline)
 roles();
 
 

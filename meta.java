@@ -49,7 +49,7 @@ static Scanner scan = new Scanner(System.in);
            
             
     
-
+//selling stock
     
     } else if(choice.equals("b") && !(choice.equals("0"))){
         System.out.println("Type in the number of shares you would like to sell:");
